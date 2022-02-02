@@ -1,0 +1,247 @@
+body{
+    margin: 0px;
+    font-family: "Helvetica";
+    background-color: #dcdbdb;
+}
+.head1{
+    height: 82px;
+    width: 100%;
+    font-size: 13px;
+    background-image: linear-gradient(#475D8D, #385491 );
+    border-bottom: 1px solid #133783;
+}
+.head2{
+    margin: auto;
+    height: 100%;
+    width: 980px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 5px
+}
+.logo{
+    /* width: 150px;
+    height: 32px; */
+    font-size: 40px;
+    padding-left: -30px;
+    font-family: 'Exo 2', sans-serif;
+}
+.log-grid{
+    height: 70px;
+    width: 400px;
+    display: grid;
+    grid-template-columns: 150px 150px 55px;
+    grid-template-rows: 25px 20px 25px;
+    grid-column-gap: 17px;
+    padding-left: 800px;
+}
+.log-grid span{
+    grid-column: 2/5;
+    grid-row: 3/4;
+    align-self: center;
+}
+.log-grid a{
+    color: #9CB4D8;
+    text-decoration: none;
+}
+.log-grid a:hover{
+    text-decoration: underline;
+}
+.email{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    align-self: center;
+}
+.email-input{
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+.pass{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    align-self: center;
+}
+.fpass{
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+.login-grid button{
+    grid-column: 3/4;
+    grid-row: 2/3;
+    background-color: #4267B2;
+    padding: 3px 5px;
+    color: #fff;
+    border-radius: 2px;
+    font-size: 12px;
+    font-weight: bold;
+    border: 1px solid #29487D;
+}
+.container{
+    float: left;
+     font-family: Arial, Helvetica, sans-serif;
+     margin-bottom: 200px;
+     margin-left: 250px;
+     padding: 25px;  
+}
+.form{
+text-align: center;
+}
+.sign-in-header{
+   
+    font-size: 35px;
+    display:flex;
+    padding-left:280px
+
+}
+
+.PP{
+display:flex;
+padding-left:280px
+}
+
+
+h2{
+    margin-bottom: 50px;
+}
+.fname{
+    width: 185px;
+    border-radius: 5px;
+    height: 30px;
+    margin: 8px;
+    font-size: 18px;
+}
+.lname{
+    width: 185px;
+    border-radius: 5px;
+background-color: white;
+    height: 30px;
+    font-size: 18px;
+}
+.box{
+    width: 390px;
+    border-radius: 5px;
+    height: 30px;
+    margin-left: 8px;
+    background-color: white;
+    border-color: none;
+    font-size: 18px;
+    margin-right: 1px;
+    margin-top: 3px;
+}
+.box-2{
+    width: 390px;
+    border-radius: 5px;
+    height: 30px;
+    margin-left: 8px;
+    background-color: white;
+    border-color: none;
+    font-size: 18px;
+    margin-right: 1px;
+    margin-top: 8px;
+}
+.pbox{
+    width: 390px;
+    border-radius: 5px;
+    height: 30px;
+    margin-left: 8px;
+    background-color: white;
+    border-color: none;
+    font-size: 18px;
+    margin-right: 1px;
+    margin-top: 8px;
+}
+::placeholder{
+    color: #9898A8;
+}
+
+.birthday{
+    font-size:26px;
+    font-family:sans-serif;
+    text-align:left;
+    padding-left:285px;
+    display:flex;
+}
+.month{
+   /* display: flex; */
+    margin-right: 0px;
+    margin-left: 280px;
+    
+  
+    
+    
+  }
+  .day{
+    /* display: flex; */
+     margin-right: 0px;
+     
+   
+     
+     
+   }
+   .year{
+    /* display: flex; */
+     margin-right: 0px;
+     
+   
+     
+     
+   }
+  
+
+   .content2{
+    padding-right: 0px;
+    padding-left: 35px;
+    font-size:medium;
+    font-family:'Times New Roman', Times, serif;
+  }
+  .content1{
+    padding-right: 300px;
+    font-family:'Times New Roman', Times, serif;
+    font-size:medium;
+  }
+  .r1{
+  margin-left: 300px;
+  font-size:xx-large;
+  }
+
+  .fmale {
+      font-size: 20px;
+    
+  }
+  .r2{
+    margin-left: 0px;
+   
+  }
+
+ 
+  .ta21{
+    padding-left: 280px;
+    font-family: Helvetica;
+    font-size:15px;
+  }
+ .bt2{
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 30px;
+    background-color: rgb(101, 165, 101);
+    
+    margin-left: 280px;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    font-family: Helvetica;
+    border-radius:7px;
+  }
+
+  
+ .gender{
+     margin-right: 400px;
+ }
+
+ .h2{
+     margin-left: 1100px;
+ }
+
+ .hh{
+     font-size: 26px;
+ }
